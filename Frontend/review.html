@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <title>Zomato Reviews</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-dark justify-content-end"
+      id="navigation"
+    >
+      <a class="navbar-brand mr-auto" href="index.html" id="logo">ZOMATO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse flex-grow-0"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav text-right">
+          <li class="nav-item active">
+            <a class="nav-link login_button" href="login.html">Login</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link create_button" href="registration.html"
+              >Create an account</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container review1">
+      <div>
+        <img class="img-fluid review_image" src="images/review_1.jpg" />
+        <div class="review_data">
+          <h2 class="review_name"><b>Burger King</b></h2>
+          <p class="review_city">Gachibowli &#9642; Casual Dining</p>
+          <hr />
+          <p>
+            <spam class="review_open">Open Now </spam> &#9642;
+            <span class="review_type">North Indian, Chineese</span>
+          </p>
+        </div>
+        <div class="review_rating">
+          <p class="review_rates">4.5</p>
+        </div>
+        <br />
+        <div>
+          <div class="reviewer">
+            <div class="review_follows">
+              <img
+                class="img-fluid review_photo"
+                align="left"
+                src="images/reviewer_1.png"
+              />
+              <p class="reviewer_name">Mark Zuckerberg</p>
+              <p class="reviewer_reviews">6454 Reviews, 463 Followers</p>
+              <a class="reviewer_follow" href="">Follow</a>
+            </div>
+            <br />
+            <div class="review_time">
+              <p class="reviewer_time">
+                yesterday   
+              </p>
+            </div>
+            <br />
+            <br />
+            <p class="reviewer_review">
+              <span class="reviewer_rate">RATED&nbsp;</span>
+              <span class="reviewer_rating">4.0</span>&nbsp; Finally tried out
+              this place. Though we are hard core non vegetarians but we love
+              trying out pure veg places sometimes. So we started with
+              caramalized french onion soup. The Onion piece was too good. Then
+              came kamalkakdi galaouti and mushroom empanada as starters. The
+              galauti was sweet in taste and the empanada was well stuffed and
+              fried. In between came our imli mocktail & virgin mojito. The imli
+              was favorite of my evening,a refreshing summer drink. Now coming
+              to the main course we tried garlic naan with peshwari paneer which
+              was awesome. The gravy was full of nuts with paneer dumplings.
+              Then we had veg pulao with methi paneer both of them was okaish .
+              The star was the dessert Tamarind cheese cake . The sweet n sour
+              taste just tantalize your taste buds.
+            </p>
+            <div class="reviewer_adds">
+              <button type="button" class="btn btn-default btn-sm review_like">
+                <span class="glyphicon glyphicon-heart"></span> Like
+              </button>
+              <button
+                type="button"
+                class="btn btn-default btn-sm review_comment"
+              >
+                <span class="glyphicon glyphicon-comment"></span> Comment
+              </button>
+              <button type="button" class="btn btn-default btn-sm review_share">
+                <span class="glyphicon glyphicon-share"></span> Share
+              </button>
+            </div>
+            <div class="reviewer_commentbox">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-tag"></span>
+                  </div>
+                  <input
+                    class="form-control"
+                    name="comment"
+                    type="text"
+                    placeholder="Write a comment ... Use @ to tag friends"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group review_add">
+          <h4 align="left">Write a Review</h4>
+          <div class="input-group">
+            <div class="input-group-addon">
+              <span class="glyphicon glyphicon-pencil"></span>
+            </div>
+            <input
+              class="form-control"
+              name="comment"
+              type="text"
+              placeholder="Help other foodies by sharing your review of Burger King"
+            />
+          </div>
+          <button type="button" class="btn btn-success" id="review_button">
+            Add Your Review
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
